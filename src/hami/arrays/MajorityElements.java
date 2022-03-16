@@ -25,8 +25,6 @@ public class MajorityElements {
 
         int ansIndex=0;
         int count=1;
-        int element=0;
-
         for(int i=1; i<a.length; i++){  //5, 1, 4, 1, 1
             if(a[i] == a[ansIndex]){
                 count++;
@@ -48,8 +46,7 @@ public class MajorityElements {
         }
 
         if(ansCount > a.length/2){
-            element = a[ansIndex];
-            System.out.println("Element is ::"+element);
+            System.out.println("Element is ::"+a[ansIndex]);
             return ansCount;
         }
 

@@ -6,6 +6,10 @@ public class RainWaterTrapping {
         System.out.println(maxWater(new int[]{3, 1, 2, 4, 0, 1, 3, 2}));
     }
 
+    /*
+    * Pre processing using aux array to store left and right indices
+    * O(n) - T, O(n) - S
+    * */
     static int maxWater(int a[]){
         //3, 1, 2, 4, 0, 1, 3, 2
         int left[] = new int[a.length];

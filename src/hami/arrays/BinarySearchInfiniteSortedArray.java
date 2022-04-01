@@ -19,7 +19,7 @@ public class BinarySearchInfiniteSortedArray {
     }
 
     static boolean binarySearchIterative(int a[], int key, int low, int high){
-        
+
         while (low <= high){
             int mid = (low + high)/2;
 
